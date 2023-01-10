@@ -3,7 +3,7 @@
 :root {
 	--color-background: #5d4037;
 	--text-color: #fff;
-	--header-background: #ff7043;
+	--color-primary: #ff7043;
 	--color-secondary: #9575cd;
 }
 
@@ -17,7 +17,7 @@ body.lock {
 	padding: 0 30px;
 }
 .visually-hidden {
-	/* position: absolute;
+	position: absolute;
 	width: 1px;
 	height: 1px;
 	margin: -1px;
@@ -26,8 +26,7 @@ body.lock {
 	white-space: nowrap;
 	clip-path: inset(100%);
 	clip: rect(0 0 0 0);
-	overflow: hidden; */
-	display: none;
+	overflow: hidden;
 }
 
 section {
@@ -49,7 +48,7 @@ header {
 	left: 0;
 	width: 100%;
 	z-index: 10;
-	background-color: var(--header-background);
+	background-color: var(--color-primary);
 }
 
 .header__container {
@@ -155,7 +154,7 @@ header {
 		left: 0;
 		height: 80px;
 		width: 100%;
-		background-color: var(--header-background);
+		background-color: var(--color-primary);
 		z-index: 5;
 	}
 
@@ -259,7 +258,7 @@ header {
 	padding: 5px 20px;
 	cursor: pointer;
 	text-align: center;
-	background-color: var(--header-background);
+	background-color: var(--color-primary);
 	font-weight: bold;
 	font-size: 25px;
 	border-radius: 3px;
@@ -343,7 +342,7 @@ header {
 
 .footer {
 	height: 80px;
-	background-color: var(--header-background);
+	background-color: var(--color-primary);
 	display: flex;
 	align-items: center;
 	justify-content: center;
